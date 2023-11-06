@@ -56,7 +56,8 @@ BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Kaggle": "https://www.kaggle.com/datasets/girish17019/mobile-phone-defect-segmentation-dataset"}
 
 CITATION_URL: Optional[str] = "https://github.com/jianzhang96/MSD#citation"
-AUTHORS: Optional[List[str]] = ["Zhang, Jian" , "Ding, Runwei" , "Ban, Miaoju" ,"Guo, Tianyu"]
+AUTHORS: Optional[List[str]] = ["Zhang, Jian", "Ding, Runwei", "Ban, Miaoju", "Guo, Tianyu"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["https://jianzhang96.github.io/","zhangjian@alumni.pku.edu.cn"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Peking University"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://english.pku.edu.cn/"
@@ -110,6 +111,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
