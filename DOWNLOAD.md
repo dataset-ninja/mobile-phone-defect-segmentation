@@ -1,6 +1,6 @@
 Dataset **MSD** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/m5uyuu5i8s2pynp04ysk7/msd-DatasetNinja.tar?rlkey=drh0pmkj850wdhwve4wn9nofd&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzI0NjlfTVNEL21zZC1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICJ6eW9DOEVCQVF6cGdHTlFSV1g1L3NiSFBUNFEwZzVhTDBZTWlxTnRtSlRRPSJ9)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
